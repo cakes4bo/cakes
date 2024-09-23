@@ -17,12 +17,8 @@ conda activate cakes
 pip install -r requirements.txt
 ```
 
----
-
 ## Reproducing Results
 
 To reproduce results, execute the following Python scripts:
 - To run optimization benchmark: ```python exp.py```
 - To run HPOBench benchmark: ```python hpobench_exp.py```
-
-Note: please follow [HPOBench instructions](./hpo_bench/README.md) to download data files for HPOBench experiments.
